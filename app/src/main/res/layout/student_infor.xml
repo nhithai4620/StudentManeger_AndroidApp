@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="16dp"
+    android:background="#E9FCFD"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginVertical="40dp"
+        android:background="#E1FBFD"
+        android:text="Thông tin cá nhân"
+        android:textColor="#0A5FA3"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="15dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Họ và tên"
+            android:textColor="#232121"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/tv_Hoten"
+            android:layout_width="224dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="52dp"
+            android:background="#D1CBCB" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="15dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ngày sinh"
+            android:textColor="#1B1A1A"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/tv_ngaysinh"
+            android:layout_width="224dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="48dp"
+            android:background="#D1CBCB"
+            android:inputType="date" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="15dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mã số SV"
+            android:textColor="#252424"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/tv_MSSV"
+            android:layout_width="224dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="53dp"
+            android:background="#D1CBCB" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="15dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Số điện thoại"
+            android:textColor="#2B2828"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/tv_sdt"
+            android:layout_width="224dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:background="#D1CBCB" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="15dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Giới tính"
+            android:textColor="#2E2D2D"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/tv_gioitinh"
+            android:layout_width="224dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="63dp"
+            android:background="#D1CBCB" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="15dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nơi ở"
+            android:textColor="#292727"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/tv_noio"
+            android:layout_width="224dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="91dp"
+            android:background="#D1CBCB" />
+    </LinearLayout>
+
+    <LinearLayout
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="15dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#E9FCFD"
+            android:text="Vào đoàn"
+            android:textColor="#2C2B2B"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/tv_vaodoan"
+            android:layout_width="224dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="53dp"
+            android:background="#D1CBCB" />
+    </LinearLayout>
+
+</LinearLayout>

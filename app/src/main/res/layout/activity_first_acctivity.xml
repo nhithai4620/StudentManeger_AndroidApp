@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="16dp"
+    tools:context=".FirstAcctivity">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Chào mừng các bạn đến với phần mềm nhập thông tin sinh viên"
+        android:textColor="#559ED6"
+        android:textColorHighlight="#151111"
+        android:textSize="29dp"
+        android:textStyle="bold" />
+    <LinearLayout
+        android:layout_marginVertical="100dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_new"
+            android:layout_width="150dp"
+            android:layout_height="60dp"
+            android:layout_marginHorizontal="20dp"
+            android:text="NEW" />
+
+        <Button
+            android:id="@+id/btn_list"
+            android:layout_marginHorizontal="30dp"
+            android:layout_width="150dp"
+            android:layout_height="60dp"
+            android:text="LIST"/>
+
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_gravity="center"
+        android:src="@mipmap/nhithai_ctu" />
+
+
+</LinearLayout>
